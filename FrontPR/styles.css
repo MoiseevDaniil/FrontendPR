@@ -1,0 +1,144 @@
+/* Основні стилі */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b3e5fc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background 0.5s ease-in-out;
+}
+
+/* Головне меню */
+.menu-page {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.menu-page ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-page li {
+    margin: 15px 0;
+}
+
+.menu-page a {
+    text-decoration: none;
+    color: #0288d1;
+    font-size: 18px;
+}
+
+.menu-page button {
+    margin-top: 20px;
+    padding: 10px;
+    background: #0288d1;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Контентні сторінки */
+.content-page {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Кнопка "На головну" */
+.back-btn {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background: #0288d1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Блок для кнопки зміни теми */
+.theme-switcher {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.theme-switcher button {
+    padding: 10px 20px;
+    background: #0288d1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.theme-switcher button:hover {
+    background: #0277bd;
+}
+
+/* Темна тема */
+.dark-theme {
+    background-color: #263238;
+    color: white;
+}
+
+.dark-theme .menu-page {
+    background: #37474f;
+}
+
+.dark-theme .menu-page a {
+    color: #bbdefb;
+}
+
+.dark-theme .menu-page button {
+    background: #546e7a;
+}
+
+.dark-theme .content-page {
+    background: #37474f;
+}
+
+.dark-theme .back-btn {
+    background: #546e7a;
+}
+
+/* Основні стилі для груп */
+.group {
+    background: #f1f1f1;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.group h3 {
+    font-size: 20px;
+    color: #0288d1;
+}
+
+.group p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Темна тема для груп */
+.dark-theme .group {
+    background: #455a64;
+}
+
+.dark-theme .group h3 {
+    color: #bbdefb;
+}
+
+.dark-theme .group p {
+    color: #e0e0e0;
+}
