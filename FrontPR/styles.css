@@ -1,4 +1,4 @@
-/* Основні стилі */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #b3e5fc;
@@ -11,7 +11,7 @@ body {
     transition: background 0.5s ease-in-out;
 }
 
-/* Головне меню */
+
 .menu-page {
     text-align: center;
     background: white;
@@ -44,7 +44,7 @@ body {
     cursor: pointer;
 }
 
-/* Контентні сторінки */
+
 .content-page {
     width: 100%;
     max-width: 600px;
@@ -55,7 +55,6 @@ body {
     text-align: center;
 }
 
-/* Кнопка "На головну" */
 .back-btn {
     display: inline-block;
     margin-bottom: 20px;
@@ -66,7 +65,7 @@ body {
     border-radius: 5px;
 }
 
-/* Блок для кнопки зміни теми */
+
 .theme-switcher {
     margin-top: 20px;
     text-align: center;
@@ -85,7 +84,7 @@ body {
     background: #0277bd;
 }
 
-/* Темна тема */
+
 .dark-theme {
     background-color: #263238;
     color: white;
@@ -111,7 +110,7 @@ body {
     background: #546e7a;
 }
 
-/* Основні стилі для груп */
+
 .group {
     background: #f1f1f1;
     padding: 20px;
@@ -130,7 +129,7 @@ body {
     color: #555;
 }
 
-/* Темна тема для груп */
+
 .dark-theme .group {
     background: #455a64;
 }
